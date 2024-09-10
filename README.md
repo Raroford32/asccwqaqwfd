@@ -1,9 +1,8 @@
 ---
-sdk: gradio
-sdk_version: 3.24.1
-app_file: server.py
+sdk: docker
+app_file: Dockerfile
 ---
 
-# Text Generation Web UI Docker Demo
+# My Lambda Demo
 
-This repository contains a Dockerfile and setup for running the `oobabooga/text-generation-webui` on a Lambda GPU Cloud instance using Gradio.
+This repository builds a Docker image that runs the oobabooga/text-generation-webui using a custom `server.py` script.
